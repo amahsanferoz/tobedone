@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tobedone="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_add_task"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Task"
+        tobedone:showAsAction="always|withText" />
+</menu>
